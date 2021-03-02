@@ -1,0 +1,55 @@
+.more {
+	margin: 10px;
+}
+.more h1 {
+	font-size: 26px;
+	color: white;
+}
+.more svg {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.more .profile {
+	position: relative;
+	background-color: #424242;
+	padding: 10px;
+	height: 48px;
+}
+
+.profile * {
+	background-color: #424242;
+	margin: 0;
+	float: left;
+}
+
+.profile h1 {
+	font-size: 13px;
+	width: 80%;
+	margin: 5px;
+}
+.profile p {
+	font-size: 8px;
+	margin: 5px;
+}
+
+.profile .imageSource {
+	background-color: white;
+	width: 15%;
+	height: 100%;
+	border-radius: 15px;
+	margin-right: 5px;
+}
+
+.profile .setProfile {
+	position: absolute;
+	right: 33px;
+	top: 22px;
+}
+
+.profile .SetProfileButton {
+	position: absolute;
+	top: 6px;
+	right: 0px;
+}
