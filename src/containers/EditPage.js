@@ -1,12 +1,10 @@
-import React from 'react';
-import {Link, RouteComponentProps} from 'react-router-dom';
-
+import React from 'react'
 const EditPage = () => {
-	return (
-		<div>
-			<Link to='/'>goBack</Link>
-		</div>
-	);
-};
+  return (
+    <div>
+      <a href="/">goBack</a>
+    </div>
+  )
+}
 
-export default EditPage;
+export default EditPage
