@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/view-more.iml" filepath="$PROJECT_DIR$/.idea/view-more.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-default.iml" filepath="$PROJECT_DIR$/.idea/react-default.iml" />
+>>>>>>> c3bbc6af9d800db460e97300c2545159a6a3df66
     </modules>
   </component>
 </project>

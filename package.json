@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.0",
@@ -14,8 +15,9 @@
   },
   "lint": "eslint pc/src/main/fe/**/*.jsx mobile/src/main/fe/**/*.jsx",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./build",
+    "start": "npm run build;node ./build/index.js"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +38,20 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "prettier": "^2.2.1"
+=======
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "2.2.1"
+>>>>>>> c3bbc6af9d800db460e97300c2545159a6a3df66
   }
 }
