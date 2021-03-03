@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a63a642b-5d8b-4c84-b093-f96608da4f44" name="Default Changelist" comment="First Commit" />
+    <list default="true" id="a63a642b-5d8b-4c84-b093-f96608da4f44" name="Default Changelist" comment="First Commit">
+      <change beforePath="$PROJECT_DIR$/src/components/ViewMore/main/ViewMoreShop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewMore/main/ViewMoreShop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/style/ViewMoreStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/style/ViewMoreStyle.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +137,7 @@
       <workItem from="1614663061684" duration="8264000" />
       <workItem from="1614674161618" duration="2719000" />
       <workItem from="1614751033439" duration="7339000" />
-      <workItem from="1614764496564" duration="962000" />
+      <workItem from="1614764496564" duration="1313000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1614672524090</created>

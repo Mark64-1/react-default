@@ -11,3 +11,7 @@
 .profile .imageSource {background-color: white;width: 15%;height: 100%;border-radius: 15px;margin-right: 5px;}
 .imageSource.right {float: right;}
 .imageSource.left {float: left;}
+
+.more .shop {position: relative;top: 40px;margin: 10px}
+.shop h1{font-size: 25px;}
+.shop textarea{width: 100%}
