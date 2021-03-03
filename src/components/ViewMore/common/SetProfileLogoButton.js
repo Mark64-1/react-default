@@ -2,8 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import ProfileImg from "./ProfileImg";
 import SetProfileButton from "./SetProfileButton";
+import rootReducer from "../../../store/modules/index";
+import { GET_USER_NAME } from "../../../store/modules/userInfo";
 
 const SetProfileLogoButton = ({ logo }) => {
+  // console.log((rootReducer().userInfo.action.type = GET_USER_NAME));
+
   const final = () => {
     console.log(logo);
     switch (logo) {
@@ -47,7 +51,7 @@ const SetProfileLogoButton = ({ logo }) => {
       case "text":
         return <p className="setProfile">Some Props Text(maybe Reducer?)</p>;
       case "next":
-        return <SetProfileButton linkURL="" />;
+        return <SetProfileButton linkURL="/DefaultAlert" />;
     }
   };
 

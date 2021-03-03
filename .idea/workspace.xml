@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a63a642b-5d8b-4c84-b093-f96608da4f44" name="Default Changelist" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ViewMore/main/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewMore/main/ViewMoreProfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ViewMore/main/Roll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewMore/common/Roll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/EditPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SettingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/ViewMorePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ViewMorePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/profilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MyProfilePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ViewMore/common/SetProfileLogoButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewMore/common/SetProfileLogoButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ViewMore/main/ViewMoreProfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewMore/main/ViewMoreProfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/static/style/ViewMoreStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/style/ViewMoreStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Router.js" afterDir="false" />
     </list>
@@ -24,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -144,7 +141,7 @@
       <workItem from="1611021785999" duration="935000" />
       <workItem from="1614663061684" duration="8264000" />
       <workItem from="1614674161618" duration="2719000" />
-      <workItem from="1614751033439" duration="2503000" />
+      <workItem from="1614751033439" duration="7197000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1614672524090</created>
