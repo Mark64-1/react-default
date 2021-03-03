@@ -10,19 +10,36 @@ export const GET_USER_PASSWORD = "GET_USER_PASSWORD";
 export const GET_USER_EMAIL = "GET_USER_EMAIL";
 export const GET_USER_PHONE = "GET_USER_PHONE";
 
+export const SET_USER_NAME = "SET_USER_NAME";
+export const SET_USER_PASSWORD = "SET_USER_PASSWORD";
+export const SET_USER_EMAIL = "SET_USER_EMAIL";
+export const SET_USER_PHONE = "SET_USER_PHONE";
+
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case GET_USER_NAME: {
-      return state.name;
+    case SET_USER_NAME: {
+      return {
+        ...state,
+        name: action.name,
+      };
     }
-    case GET_USER_PASSWORD: {
-      return state.password;
+    case SET_USER_PASSWORD: {
+      return {
+        ...state,
+        password: action.password,
+      };
     }
-    case GET_USER_EMAIL: {
-      return state.email;
+    case SET_USER_EMAIL: {
+      return {
+        ...state,
+        email: action.email,
+      };
     }
-    case GET_USER_PHONE: {
-      return state.phone;
+    case SET_USER_PHONE: {
+      return {
+        ...state,
+        phone: action.phone,
+      };
     }
   }
 };
