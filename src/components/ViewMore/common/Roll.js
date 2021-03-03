@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Roll = () => {
 	return (
-		<Link to='/EditPage'>
+		<Link to='/SettingPage'>
 			<svg
 				width='22'
 				height='24'
