@@ -12,24 +12,16 @@ import ProfilePage from '../containers/ProfilePage'
 
 const Router = () => {
   return (
-    <Router history={browserHistory}>
-      <Route path="/" component={ViewMorePage}>
-        <IndexRoute component={Index} />
-        <Route path="/EditPage" component={EditPage} />
-        <Route path="/ProfilePage" component={ProfilePage} />
-        <Route path="*" component={NoMatch} />
-      </Route>
-    </Router>
 
-    // <BrowserRouter>
-    // 	<div>
-    // 		<Switch>
-    // 			<Route exact path='/' component={} />
-    // 			<Route path='/EditPage' component={editPage} />
-    // 			<Route path='/ProfilePage' component={profilePage} />
-    // 		</Switch>
-    // 	</div>
-    // </BrowserRouter>
+    <BrowserRouter>
+    	<div>
+    		<Switch>
+    			<Route exact path='/' component={} />
+    			<Route path='/EditPage' component={editPage} />
+    			<Route path='/ProfilePage' component={profilePage} />
+    		</Switch>
+    	</div>
+    </BrowserRouter>
   )
 }
 

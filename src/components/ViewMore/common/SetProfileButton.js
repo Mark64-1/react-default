@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-const SetProfileButton = () => {
+const SetProfileButton = ({linkURL}) => {
 	return (
-		<Link to='/EditPage'>
+		<Link to={linkURL}>
 			<div className="SetProfileButton">
 				<svg
 					width='11'

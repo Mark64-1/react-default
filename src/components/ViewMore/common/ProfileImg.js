@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ProfileImg = () => {
+const ProfileImg = ({sort}) => {
 	return (
-		<div className='imageSource'></div>
+		<div className={'imageSource '+sort}></div>
 		// <img src=""/>
 	);
 };

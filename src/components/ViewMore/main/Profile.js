@@ -6,7 +6,7 @@ const Profile = () => {
 	var someProps = {name: '까미S', dates: '2021.02.19'};
 
 	return (
-		<div className='profile'>
+		<div classzName='profile'>
 			<ProfileImg/>
 			<h1>{someProps.name}</h1>
 			<p>가입날짜 {someProps.dates}</p>
