@@ -1,13 +1,17 @@
 import React from "react";
 import { Route, Switch, Link, BrowserRouter } from "react-router-dom";
+import styled from "styled-components";
 
 import SettingPage from "../containers/SettingPage";
 import ViewMorePage from "../containers/ViewMorePage";
 import MyProfilePage from "../containers/MyProfilePage";
 import DefaultAlert from "../components/alert/DefaultAlert";
 
+interface Props{}
+
 const Router = () => {
   return (
+
     <BrowserRouter>
       <div>
         <Switch>
@@ -58,3 +62,7 @@ function oneLoad() {
 }
 
 export default Router;
+
+const Button = styled.div`
+  font-size: 5vw;
+`;
